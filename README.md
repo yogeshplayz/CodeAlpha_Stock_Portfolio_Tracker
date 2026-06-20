@@ -1,14 +1,13 @@
 # CodeAlpha Stock Portfolio Tracker
 
-A comprehensive stock portfolio tracking application built for CodeAlpha. This project helps users monitor, manage, and analyze their investment portfolios with ease.
+A simple command-line tool to track the total value of a stock portfolio built as a project for CodeAlpha. This project helps users input their owned stocks and quantities,and the program calculates the total investment value based on a hardcoded set of prices.
 
 ## Features
 
-- **Portfolio Management**: Add, update, and remove stocks from your portfolio
-- **Real-time Tracking**: Monitor stock prices and portfolio value in real-time
-- **Performance Analysis**: Track gains/losses and calculate returns on investments
-- **Portfolio Overview**: Get a comprehensive view of your holdings and asset allocation
-- **Historical Data**: View historical performance and trends of your investments
+- Allows user to input stock tickers and their quantities.
+- Uses a hardcoded dictionary for stock prices.
+- Calculates and displays the total portfolio investment value.
+- Saves the final portfolio details to a portfolio.txt file.
 
 ## Getting Started
 
@@ -25,24 +24,14 @@ git clone https://github.com/yogeshplayz/CodeAlpha_Stock_Portfolio_Tracker.git
 cd CodeAlpha_Stock_Portfolio_Tracker
 ```
 
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-### Usage
-
+2. Run the Python script:
 ```bash
 python main.py
 ```
 
 ## Project Structure
 
-- `main.py` - Main entry point of the application
-- `portfolio/` - Portfolio management modules
-- `stocks/` - Stock data handling
-- `utils/` - Utility functions
-- `requirements.txt` - Project dependencies
+- `stock_tracker.py` - Main entry point of the application
 
 ## License
 
